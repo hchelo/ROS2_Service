@@ -1,0 +1,4 @@
+[console_scripts]
+minimal_client = py_srvcliESP.cliesp:main
+minimal_service = py_srvcliESP.serviesp:main
+

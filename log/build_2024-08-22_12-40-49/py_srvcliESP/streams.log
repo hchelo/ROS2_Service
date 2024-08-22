@@ -1,0 +1,41 @@
+[1.134s] Invoking command in '/home/kubu/esp32_ws/src/py_srvcliESP': PYTHONPATH=/home/kubu/esp32_ws/build/py_srvcliESP/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcliESP build --build-base /home/kubu/esp32_ws/build/py_srvcliESP/build install --record /home/kubu/esp32_ws/build/py_srvcliESP/install.log --single-version-externally-managed install_data
+[1.421s] running egg_info
+[1.422s] creating ../../build/py_srvcliESP/py_srvcliESP.egg-info
+[1.422s] writing ../../build/py_srvcliESP/py_srvcliESP.egg-info/PKG-INFO
+[1.422s] writing dependency_links to ../../build/py_srvcliESP/py_srvcliESP.egg-info/dependency_links.txt
+[1.422s] writing entry points to ../../build/py_srvcliESP/py_srvcliESP.egg-info/entry_points.txt
+[1.422s] writing requirements to ../../build/py_srvcliESP/py_srvcliESP.egg-info/requires.txt
+[1.423s] writing top-level names to ../../build/py_srvcliESP/py_srvcliESP.egg-info/top_level.txt
+[1.423s] writing manifest file '../../build/py_srvcliESP/py_srvcliESP.egg-info/SOURCES.txt'
+[1.425s] reading manifest file '../../build/py_srvcliESP/py_srvcliESP.egg-info/SOURCES.txt'
+[1.426s] writing manifest file '../../build/py_srvcliESP/py_srvcliESP.egg-info/SOURCES.txt'
+[1.426s] running build
+[1.426s] running build_py
+[1.426s] creating /home/kubu/esp32_ws/build/py_srvcliESP/build
+[1.426s] creating /home/kubu/esp32_ws/build/py_srvcliESP/build/lib
+[1.426s] creating /home/kubu/esp32_ws/build/py_srvcliESP/build/lib/py_srvcliESP
+[1.426s] copying py_srvcliESP/__init__.py -> /home/kubu/esp32_ws/build/py_srvcliESP/build/lib/py_srvcliESP
+[1.426s] copying py_srvcliESP/cliesp.py -> /home/kubu/esp32_ws/build/py_srvcliESP/build/lib/py_srvcliESP
+[1.427s] copying py_srvcliESP/serviesp.py -> /home/kubu/esp32_ws/build/py_srvcliESP/build/lib/py_srvcliESP
+[1.427s] running install
+[1.427s] running install_lib
+[1.428s] creating /home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages/py_srvcliESP
+[1.428s] copying /home/kubu/esp32_ws/build/py_srvcliESP/build/lib/py_srvcliESP/__init__.py -> /home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages/py_srvcliESP
+[1.428s] copying /home/kubu/esp32_ws/build/py_srvcliESP/build/lib/py_srvcliESP/cliesp.py -> /home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages/py_srvcliESP
+[1.428s] copying /home/kubu/esp32_ws/build/py_srvcliESP/build/lib/py_srvcliESP/serviesp.py -> /home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages/py_srvcliESP
+[1.428s] byte-compiling /home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages/py_srvcliESP/__init__.py to __init__.cpython-310.pyc
+[1.429s] byte-compiling /home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages/py_srvcliESP/cliesp.py to cliesp.cpython-310.pyc
+[1.429s] byte-compiling /home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages/py_srvcliESP/serviesp.py to serviesp.cpython-310.pyc
+[1.430s] running install_data
+[1.430s] creating /home/kubu/esp32_ws/install/py_srvcliESP/share/ament_index
+[1.430s] creating /home/kubu/esp32_ws/install/py_srvcliESP/share/ament_index/resource_index
+[1.431s] creating /home/kubu/esp32_ws/install/py_srvcliESP/share/ament_index/resource_index/packages
+[1.431s] copying resource/py_srvcliESP -> /home/kubu/esp32_ws/install/py_srvcliESP/share/ament_index/resource_index/packages
+[1.431s] copying package.xml -> /home/kubu/esp32_ws/install/py_srvcliESP/share/py_srvcliESP
+[1.431s] running install_egg_info
+[1.433s] Copying ../../build/py_srvcliESP/py_srvcliESP.egg-info to /home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages/py_srvcliESP-0.0.0-py3.10.egg-info
+[1.434s] running install_scripts
+[1.454s] Installing minimal_client script to /home/kubu/esp32_ws/install/py_srvcliESP/lib/py_srvcliESP
+[1.454s] Installing minimal_service script to /home/kubu/esp32_ws/install/py_srvcliESP/lib/py_srvcliESP
+[1.455s] writing list of installed files to '/home/kubu/esp32_ws/build/py_srvcliESP/install.log'
+[1.479s] Invoked command in '/home/kubu/esp32_ws/src/py_srvcliESP' returned '0': PYTHONPATH=/home/kubu/esp32_ws/build/py_srvcliESP/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kubu/esp32_ws/install/py_srvcliESP/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcliESP build --build-base /home/kubu/esp32_ws/build/py_srvcliESP/build install --record /home/kubu/esp32_ws/build/py_srvcliESP/install.log --single-version-externally-managed install_data
