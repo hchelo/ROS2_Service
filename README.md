@@ -9,6 +9,7 @@ Configuration Diagram:
 sudo chmod 777 /dev/ttyUSB0 
 Upload the following program to the ESP32. Don't forget to connect the ESP32 to the same Wi-Fi network as your PCs.
 - esp_led.py
+
 Afterward, you can disconnect the ESP32 and test it with a separate 5V power supply.
 
 # 1. Create new package
@@ -34,5 +35,6 @@ SERVER:
 
 CLIENT
 	ros2 run py_srvcliESP minimal_client 1
+
 If the argument is 1, it turns on the LED on the ESP32; if the argument is 0, the LED turns off.
 
