@@ -3,8 +3,7 @@
 Turn on an LED on an ESP32 from a laptop1 server and a laptop2 client
 
 Configuration Diagram:
-
-
+(https://github.com/hchelo/ROS2_basics/blob/main/img/ROS2%20Esp32%20led.png)
 # 0. In the ESP32 
 sudo chmod 777 /dev/ttyUSB0 
 Upload the following program to the ESP32. Don't forget to connect the ESP32 to the same Wi-Fi network as your PCs.
