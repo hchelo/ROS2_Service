@@ -7,7 +7,7 @@ Configuration Diagram:
 # 0. In the ESP32 
 sudo chmod 777 /dev/ttyUSB0 
 Upload the following program to the ESP32. Don't forget to connect the ESP32 to the same Wi-Fi network as your PCs.
-- esp_led.py
+- src/Code_ESP32/esp_led.py
 
 Afterward, you can disconnect the ESP32 and test it with a separate 5V power supply.
 
@@ -19,11 +19,11 @@ create:
 
 # 2 Write the service node
 
-- serviesp.py
+- src/py_srvcliESP/py_srvcliESP/serviesp.py
 
 # 3 Write the client node
 
-- cliesp.py
+- src/py_srvcliESP/py_srvcliESP/cliesp.py
 
 # 4 Build and run
 - colcon build
