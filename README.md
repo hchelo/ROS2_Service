@@ -15,7 +15,7 @@ Afterward, you can disconnect the ESP32 and test it with a separate 5V power sup
 Open a new terminal and source, in this case: esp32_ws/src/
 
 create:
-- ros2 pkg create --build-type ament_python py_srvcli --dependencies rclpy example_interfaces
+- ros2 pkg create --build-type ament_python py_srvcliESP --dependencies rclpy example_interfaces
 
 # 2 Write the service node
 
